@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/zomato.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- stat of main container  -->
+  <div class="main-container">
+    <!-- start of background -image container   -->
+    <div class="container-bg">
+      <!-- navigation bar contaoner start  -->
+      <div class="navigation">
+        <navbar>
+
+          <ul>
+            <li class="download"><a href=""><i class="fas fa-cart-arrow-down"></i>get the app </a></li>
+            <li><a class="a" href="https://www.zomato.com/mobile" target="_blank">add resturant</a></li>
+            <li ><a class="a" href="#"onclick="show()">login</a></li>
+            <li><a class="a" href="#" onclick="signup()">signup</a></li>
+
+
+
+
+          </ul>
+
+
+        </navbar>
+      </div>
+      <!-- end of navigation  -->
+      <!-- start of form container / -->
+      <div class="form-container">
+
+        <div class="img">
+          <img src="./images/zomato2.webp">
+        </div>
+        <div class="text">
+          <h1> Discover the best food & drinks in Bhubaneswar</h1>
+
+        </div>
+        <div class="search">
+          <input id="search" type="text" placeholder="search food">
+
+        </div>
+        <!-- <div class="icon">
+                    <i class="fas fa-search"style="font-size:20px;"></i>
+                </div> -->
+
+
+
+      </div>
+
+      <!-- end of form container  -->
+
+
+    </div>
+
+    <!-- end of container bg  -->
+
+
+
+    <!-- start of new container  for cards -->
+    <div class="card-container">
+      <!-- strat of container fluid  -->
+
+      <div class="container-fluid">
+
+
+
+
+        <!-- 1st card container  -->
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/card1.webp" alt="Card image cap">
+          <div class="card-body">
+            <a href="#" class="btn">order food online</a>
+          </div>
+        </div>
+        <!-- strat of second card  -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/card2.webp" alt="Card image cap">
+          <div class="card-body">
+            <a href="#" class="btn">Go out for a meal</a>
+          </div>
+        </div>
+        <!-- strat of 3rd  card -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/card3.webp" alt="Card image cap">
+          <div class="card-body">
+            <a href="#" class="btn">zomato pro</a>
+          </div>
+        </div>
+
+        <!-- strat of 4th card  -->
+        <div class="card"  style="width: 18rem;">
+          <img class="card-img-top" src="images/card4.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <a href="#" class="btn">nightlifes & clubs</a>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+      <!-- end of container fluid  -->
+    </div>
+    <!-- end of card container  -->
+
+
+    <!-- strat of collection container 
+        
+        -->
+    <div class="collection">
+      <h2>collections</h2>
+      <h3>Explore curated lists of top restaurants, cafes, pubs, and bars in Bhubaneswar, based on trends <a href="">All
+          collections in Bhubaneswar<i class="fas fa-caret-right"></i></a></h3>
+    </div>
+
+    <!-- end of collection container  -->
+
+
+
+    <!-- 2nd card container div start  -->
+
+    <div class="card2-container">
+
+
+      <!-- strat of second-container fluid  -->
+      <div class="container-fluid">
+
+        <!-- 1st card  -->
+        <div class="cards">
+          <img class="cards-img" src="images/cricket3.jpeg">
+          <a class="cards-a" href="">live sports screening</a>
+          <a class="cards-b" href="">11 places <i class="fas fa-caret-right"></i></a>
+
+        </div>
+
+        <!-- 2nd card  -->
+        <div class="cards">
+          <img class="cards-img" src="images/pizza.jpeg">
+          <a class="cards-a" href="">trending this week</a>
+          <a class="cards-b" href="">30 places <i class="fas fa-caret-right"></i></a>
+
+        </div>
+        <!-- 3rd card  -->
+        <div class="cards">
+          <img class="cards-img" src="images/icecream.jpeg">
+          <a class="cards-a" href="">best of bhubaneswar</a>
+          <a class="cards-b" href="">17 places<i class="fas fa-caret-right"></i></a>
+
+        </div>
+        <!-- 4th card   -->
+        <div class="cards">
+          <img class="cards-img" src="images/seets2.jpeg">
+          <a class="cards-a" href="">sweet tooth</a>
+          <a class="cards-b" href="">8 places <i class="fas fa-caret-right"></i></a>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+      <!-- end of 2nd container fluid  -->
+
+    </div>
+    <!-- <end of 2nd card conatiner  -->
+
+
+
+    <!-- ==================localites div part ====================== -->
+
+
+    <div class="popular">
+      <h2>Popular localities in and around </h2>
+
+    </div>
+
+
+
+    <!-- ////////////////////////////start of listing of local places /////////////////////// -->
+
+    <!--./////////////// stratof listing div ////////////// -->
+    <div class="listing">
+
+      <!-- /////start of first li card ///// -->
+      <div class="container-fluid">
+        <!-- strat off 3rd container fluid  -->
+        <div class="first-row">
+          <ul>
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    patia(787) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 2nd  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    jayadev vihar(168) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 3rd  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    unit 4(110) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 4th  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    ashok nagar(81) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 5th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    satya nagar (58) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 6th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    kalinga nagar(88) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 7th -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    forest park(78)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+
+          </ul>
+        </div>
+
+
+
+
+        <!-- div class second row /////////////// -->
+
+        <div class="second-row">
+          <ul>
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body ">
+                    nayapali (234)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 2nd  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    chandrasekharpur(432) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 3rd  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    lakshmi sagar(432)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 4th  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    khandagiri(196)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 5th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    bapuji nagar(65) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 6th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    baramunda (147)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 7th -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    patrapada (220) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+
+          </ul>
+        </div>
+
+
+
+        <!-- div class third row ///////////// -->
+
+        <div class="third-row">
+          <ul>
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    sahid nagar (298) places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 2nd  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    kharabeal nagar(58)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 3rd  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    gajapatinagar(89)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 4th  -->
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    jagmohan nagar(90)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 5th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    BJBnagar(150)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+            <!-- 6th  -->
+
+            <li><a href="">
+                <div class="card">
+                  <div class="card-body">
+                    surya nagar(78)places
+                    <span><i class="fas fa-caret-right"></i></span>
+                  </div>
+                </div>
+              </a></li>
+
+
+          </ul>
+        </div>
+
+      </div>
+      <!-- end of 3rd container fluid  -->
+
+
+
+    </div>
+    <!-- end of listing container  -->
+
+
+    <!-- strat download container  -->
+
+    <div class="downloads">
+      <!-- start of 4th container -fluid  -->
+
+      <div class="container-fluid">
+        <div class="mobile-image">
+          <img src="images/mobile.webp">
+        </div>
+
+        <div class="registration-form">
+          <h2>
+            get the zomato app
+          </h2>
+          <br>
+          <h4>We will send you a link, open it on your phone to download the app</h4>
+          <form>
+
+            <input type="radio" id="EMAIL" name="fav_language" value="EMAIL">
+            <label for="html">Email</label>
+            <input type="radio" id="MOBILE" name="fav_language" value="MOBILE">
+            <label for="css">Mobile</label>
+
+
+            <br>
+
+            <input type="text" placeholder="" class="search-input"><span id="span-btn"><button class="search-btn">share
+                app link</button></span>
+            <br>
+
+            <small>Download App From</small>
+            <br><br>
+            <span class="span-img">
+              <a href=""><img src="images/app.webp"></a>
+              <a href=""><img src="images/google.webp"></a>
+            </span>
+
+          </form>
+
+
+        </div>
+
+        <!-- end of 4th container fluid  -->
+      </div>
+
+
+
+      <!-- end of download cntainer  -->
+    </div>
+
+    <div class="citylist">
+      <!-- strat of food list  -->
+      <div class="container-fluid">
+        <h1>Cities We Deliver To</h1>
+        <br>
+
+        <!-- start of 5th container fluid  -->
+        <div class="city">
+
+
+
+          <div class="cuisine-list1">
+
+            <ul>
+              <li><a class="city-a" href="">Delhi NCR</a></li><br>
+              <li><a class="city-a" href="">Hyderbad</a></li><br>
+              <li><a class="city-a" href="">Ahemadbad</a></li><br>
+              <li><a class="city-a" href="">Ooty</a></li><br>
+              <li><a class="city-a" href="">Kanpur</a></li><br>
+              <li><a class="city-a" href="">Vishakapatanam</a></li><br>
+              <li><a class="city-a" href="">Nagpur</a></li><br>
+              <li><a class="city-a" href="">Surat</a></li><br>
+              <li><a class="city-a" href="">Trivandrum</a></li><br>
+              <li><a class="city-a" href="">Madurai</a></li><br>
+              <li><a class="city-a" href="">Vijayawda</a></li><br>
+              <li><a class="city-a" href="">Rishikesh</a></li><br>
+              <li><a class="city-a" href="">Raipur</a></li><br>
+            </ul>
+
+
+            <!-- cuisine list1  div end  -->
+
+          </div>
+          <!-- cuisine list 2 start  -->
+
+
+          <div class="cuisine-list1">
+
+            <ul>
+              <li><a class="city-a" href="">Kolkata</a></li><br>
+              <li><a class="city-a" href="">Chennai</a></li><br>
+              <li><a class="city-a" href="">Chandigarh</a></li><br>
+              <li><a class="city-a" href="">Shimla</a></li><br>
+              <li><a class="city-a" href="">Allhabad</a></li><br>
+              <li><a class="city-a" href="">Bhubaneswar</a></li><br>
+              <li><a class="city-a" href="">Agra</a></li><br>
+              <li><a class="city-a" href="">Vranasi</a></li><br>
+              <li><a class="city-a" href="">Hridwar</a></li><br>
+              <li><a class="city-a" href="">Kozhikade</a></li><br>
+              <li><a class="city-a" href="">Jodhpur</a></li><br>
+              <li><a class="city-a" href="">Jalandhar</a></li><br>
+              <li><a class="city-a" href="">Gorakhpur</a></li><br>
+            </ul>
+
+
+            <!-- cuisine list2 div end  -->
+
+          </div>
+
+
+          <!-- cuisine list div3 start  -->
+
+          <div class="cuisine-list1">
+
+            <ul>
+              <li><a class="city-a" href="">Mumbai</a></li><br>
+              <li><a class="city-a" href="">Lucknow</a></li><br>
+              <li><a class="city-a" href="">Goa</a></li><br>
+              <li><a class="city-a" href="">Ludhiana</a></li><br>
+              <li><a class="city-a" href="">Aurangabad</a></li><br>
+              <li><a class="city-a" href="">Coimbatore</a></li><br>
+              <li><a class="city-a" href="">Dehradun</a></li><br>
+              <li><a class="city-a" href="">Ptna</a></li><br>
+              <li><a class="city-a" href="">Leh</a></li><br>
+              <li><a class="city-a" href="">Alpuzha</a></li><br>
+              <li><a class="city-a" href="">Kota</a></li><br>
+              <li><a class="city-a" href="">Jammu</a></li><br>
+              <li><a class="city-a" href="">Palakkad</a></li><br>
+            </ul>
+
+          </div>
+
+
+          <!-- cuisine list3 div end  -->
+
+          <!-- cuisine list 4 div start  -->
+
+          <div class="cuisine-list1">
+
+            <ul>
+              <li><a class="city-a" href="">Bengluru</a></li><br>
+              <li><a class="city-a" href="">Kochi</a></li><br>
+              <li><a class="city-a" href="">Indore</a></li><br>
+              <li><a class="city-a" href="">Guwahti</a></li><br>
+              <li><a class="city-a" href="">Manglore</a></li><br>
+              <li><a class="city-a" href="">Banglore</a></li><br>
+              <li><a class="city-a" href="">Myshore</a></li><br>
+              <li><a class="city-a" href="">Udaypur</a></li><br>
+              <li><a class="city-a" href="">Pushkar</a></li><br>
+              <li><a class="city-a" href="">Thrissur</a></li><br>
+              <li><a class="city-a" href="">Ajmer</a></li><br>
+              <li><a class="city-a" href="">Manali</a></li><br>
+              <li><a class="city-a" href="">Raipur</a></li><br>
+            </ul>
+
+          </div>
+          <!-- cuisine list div 4 end  -->
+
+
+
+          <!-- cuisine list 5 strat  -->
+
+
+          <div class="cuisine-list1">
+
+            <ul>
+              <li><a class="city-a" href="">Pune</a></li><br>
+              <li><a class="city-a" href="">Jaipur</a></li><br>
+              <li><a class="city-a" href="">Nashik</a></li><br>
+              <li><a class="city-a" href="">Amritsar</a></li><br>
+              <li><a class="city-a" href="">Ranchi</a></li><br>
+              <li><a class="city-a" href="">Vadodra</a></li><br>
+              <li><a class="city-a" href="">Puducherry</a></li><br>
+              <li><a class="city-a" href="">Cuttack</a></li><br>
+              <li><a class="city-a" href="">Rajkot</a></li><br>
+              <li><a class="city-a" href="">Manipal</a></li><br>
+              <li><a class="city-a" href="">Mussorie</a></li><br>
+              <li><a class="city-a" href="">Dhramasla</a></li><br>
+              <li><a class="city-a" href="">Dhramasla</a></li><br>
+              
+            </ul>
+
+          </div>
+
+          <!-- end of cuisine div 5  -->
+
+
+
+
+
+
+
+
+          <!-- cuisine div end  -->
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end of container fluid -->
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- end of food list  -->
+    </div>
+
+
+
+    <!--//////////////////////////////////// start of footer div //////////////////// -->
+
+
+    <div class="footer">
+      <!-- start of footer  -->
+
+      <div class="container-fluid">
+        <!-- strat of container fluid  -->
+
+        <div class="foot">
+        <div class="foot-head">
+          <ul>
+            <li><h5>Contact</h5></li>
+            <li><a href="">Who We Are</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Carrears</a></li>
+            <li><a href="">Report</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Investor Relations</a></li>
+
+          </ul>
+        </div>
+
+
+        <!-- 2nd column  -->
+
+
+        <div class="foot-head">
+          <ul>
+            <li><h5>For foodies</h5></li>
+            <li><a href="">Code of Conduct</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Mobile Apps</a></li>
+
+          </ul>
+        </div>
+
+        <!-- 3rd column  -->
+        <div class="foot-head">
+          <ul>
+            <li><h5>For resturants</h5></li>
+            <li><a href="">Add resturant</a></li>
+
+          </ul>
+        </div>
+
+        <!-- 4th column  -->
+
+
+        <div class="foot-head">
+          <ul>
+            <li><h5>For you</h5></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Security</a></li>
+            <li><a href="">Sitemap</a></li>
+
+          </ul>
+        </div>
+
+        <!-- 5th column  -->
+        <div class="foot-head">
+          <ul>
+            <li><h5>Social media</h5></li>
+            <li><a href="">
+              <span><i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i></span>
+                <li><a href=""><img class="d-img" src="./images/app.webp"></a></li>
+                <li><a href=""><img class="d-img"  src="./images/google.webp"></a></li>
+
+            </a></li>
+
+          </ul>
+        </div>
+      </div>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end of container fluid  -->
+      </div>
+      <hr>
+
+
+
+
+
+
+
+
+      <!-- end  of footer // -->
+    </div>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!-- main container ending  -->
+
+
+
+
+
+
+
+
+<!-- modal login form 
+ -->
+
+
+
+
+ <div id="id" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id').style.display='none'"class="close" title="Close Modal">&times;</span>
+     
+    </div>
+
+    <div class="container">
+     
+      <input type="number" placeholder="+91 ......."  required>
+
+     
+        
+      <button  type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button  type="button" onclick="shut()" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/zomato.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

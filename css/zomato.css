@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+
+
+
+
+*{
+
+
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+    font-family: 'Zen Antique', serif;
+
+
+}
+
+
+
+.main-container{
+    height:auto;
+    width:auto;
+    background-color: whitesmoke;
+
+}
+
+
+.container-bg{
+     background-image: url('../images/zomatobg.webp');
+     background-repeat:no-repeat;
+     background-size: contain;
+  
+    
+    height:100vh;
+    width:100vw;
+}
+
+/* navigation bar styling 
+ */
+
+ .navigation{
+     padding:10px;
+
+ }
+ .navigation ul{
+     display:flex;
+     align-items :center;
+     color:whitesmoke;
+     list-style: none;
+     text-transform: capitalize;
+ }
+ .navigation ul li{
+     padding:0 12px;
+ }
+ .navigation a{
+     text-decoration: none;
+     color:whitesmoke;
+ }
+
+ .download{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    margin-left:10px;
+    
+}
+
+.a{
+     position:relative;
+    left:900px; 
+    letter-spacing:2px;
+
+    
+
+}
+
+
+
+
+/* styling form container */
+
+
+
+.form-container{
+  display:grid;
+  place-items:center;
+
+}
+
+.form-container .img{
+    margin:40px;
+}
+
+.form-container .img img{
+    width:400px;
+    height:80px;
+}
+
+/* form conatainer h1  */
+
+.form-container h1{
+    color:whitesmoke;
+    font-size:42px;
+}
+
+
+
+/* form container form styling  */
+.form-container .search{
+    position:relative;
+}
+
+
+
+
+
+.form-container input{
+    padding:10px;
+    margin-top:20px;
+    width:50vw;
+    border-radius:10px;
+    
+}
+
+/* media query for upper part of zomato
+
+*/
+
+@media only screen and (max-width: 900px){
+
+    .a{
+        position:relative;
+       left:300px; 
+       letter-spacing: 2px;
+   
+       
+   
+   }
+   .form-container h1{
+    color:whitesmoke;
+    font-size:32px;
+}
+.form-container .img img{
+    width:300px;
+    height:60px;
+}
+
+.form-container input{
+    padding:10px;
+    margin-top:20px;
+    width:40vw;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* cards styling  */
+
+
+
+.card-container{
+    display:grid;
+    justify-content: center;
+    background:whitesmoke;
+    margin-top:-200px;
+    /* border:1px solid red; */
+    
+    
+}
+.card-container .container-fluid{
+    display:flex;
+    padding:40px;
+    /* border:1px solid red; */
+}
+
+.card-container .card{
+border-radius:20px;
+margin:0 4px;
+box-shadow:1px 1px 4px black;
+}
+
+.card-container .card .card-img-top{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;}
+
+
+    .card-container .btn{
+       text-align: center;
+       
+       width:90%;
+       text-transform: capitalize;
+       font-weight: bold;
+       background: transparent;
+    }
+
+
+/* card container media query */
+@media only screen and (max-width: 900px){
+
+    .card-container{
+        margin-top:-150px;
+    
+    }
+    .card-container .container-fluid{
+      padding:20px;
+      width:70%
+    }
+    .card-container .card .card-img-top{
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        height:190px;
+        width:195px;
+    }
+    
+    
+
+
+}
+
+/* collection container styling  */
+
+
+.main-container .collection{
+    background-color: whitesmoke;
+    /* border:1px solid red; */
+    width:80%;
+    margin:auto;
+    position:relative;
+    top:20px;
+    left:20px;
+    /* border:1px solid red; */
+    
+    
+}
+
+.collection h3{
+    font-size:18px;
+    text-transform: capitalize;
+    opacity:0.8;
+}
+   
+.colection h2{
+    font-size:27px;
+    text-transform: capitalize;
+    
+}
+
+
+.collection a{
+text-decoration: none;
+color:red;
+
+}
+.collection a i{
+    margin:0 10px;
+    
+    
+}
+
+
+/* media query of collecton  */
+
+@media only screen and (max-width: 900px){
+    .main-container .collection{
+        width:90%;
+        left:0px;
+       
+    }
+    .collection h3{
+        font-size:12px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2nd card styling
+ */
+
+
+ .card2-container{
+    display:grid;
+    justify-content: center;
+    background:whitesmoke;
+    
+ }
+
+
+
+
+
+ .card2-container .container-fluid{
+    display:flex;
+    padding:40px;
+    /* width:79%; */
+    /* border:1px solid red; */
+    text-align: center;
+    margin-top:30px;
+    background-color: whitesmoke;
+   
+ }
+ .card2-container .cards{
+    border-radius:10px;
+    margin:0 10px;
+    box-shadow:1px 1px 4px black;
+    /* border:1px solid red; */
+    width:auto;
+    position:relative;
+
+  
+    }
+
+
+
+
+    .card2-container .cards .cards-img{
+    width:280px;
+    height:350px;
+    overflow:auto;
+    border-radius:10px;
+    }
+    
+
+    /* cards a anchor tag styling  */
+
+
+    .cards-a{
+        position:absolute;
+        color:rgb(255, 255, 255);
+        bottom:40px;
+        left:20px;
+        text-decoration:none;
+        font-size:20px;
+        text-transform: capitalize;
+
+    }
+    .cards-a:hover{
+        color:whitesmoke;
+    }
+
+
+    /* cards b anchor tag styling  */
+    .cards-b{
+        position:absolute;
+        color:rgb(255, 253, 253);
+        bottom:10px;
+        left:20px;
+        text-decoration:none;
+        font-size:18px;
+        text-transform: capitalize;
+
+    }
+    .cards-b:hover{
+        color:whitesmoke;
+    }
+
+    .cards-b i{
+        font-size:17px;
+        margin: 0 10px;
+        
+    }
+
+
+    @media only screen and (max-width: 900px){
+
+
+        .card2-container .container-fluid{
+            padding:30px;
+        }
+
+
+        .card2-container .cards .cards-img{
+
+            width:200px;
+            height:250px;
+        }
+        .cards-a{
+            font-size:14px;
+        }
+        .cards-b{
+            font-size:14px;
+        }
+        
+    }
+
+
+
+
+
+    /* population div styling 
+     */
+
+
+
+     
+.main-container .popular{
+    margin:auto;
+    /* border:1px solid red; */
+    width:50%;
+}
+
+.popular h2::after { 
+    content: " Bhubaneswar";
+    color:black;
+    font-weight: bold;
+  }
+
+
+
+
+
+  /* localities styling  */
+
+
+
+
+.listing{
+    width:100%;
+    height:100%;
+}
+
+  .listing .card{
+      width:100%;
+      height:50px;
+      margin:15px 12px;
+      padding:10px;
+       position:relative;
+       right:15px; 
+      box-shadow:1px 1px 2px black;
+      border-radius:10px;
+      
+  }
+
+  
+
+
+
+
+  .listing .container-fluid{
+      display:flex;
+      /* border:1px solid red; */
+      margin:auto;
+      width:80%;
+      
+    }
+
+
+    .listing a{
+        text-decoration:none;
+        color:black;
+        font-size:20px;
+        text-transform: capitalize;
+        
+    }
+
+    .listing ul{
+        list-style-type: none;
+    }
+
+    .listing span{
+        float:right;
+    }
+      
+
+    /* listing media query  */
+
+    @media only screen and (max-width: 900px){
+
+.listing{
+    width:auto;
+    height:auto;
+}
+.listing .card{
+    margin:10px 10px;
+    padding:5px;
+    position:relative;
+    right:25px; 
+   box-shadow:1px 1px 2px black;
+   border-radius:5px;
+}
+.listing a{
+    text-decoration:none;
+    color:black;
+    font-size:12px;
+    text-transform: capitalize;
+    
+}
+.popular h2 { 
+   font-size: 15px;
+  }
+  .main-container .popular{
+    margin:auto;
+    /* border:1px solid red; */
+    width:40%;
+    position:relative;
+    left:20px;
+}
+
+
+
+    }
+
+
+
+    /*////////////////////// download container styling //////////////// */
+
+
+
+    .downloads{
+        width:100%;
+        height:100%;
+        background-color:beige;
+    }
+
+    .downloads .container-fluid{
+        display:flex;
+        /* margin:auto; */
+        /* border:1px solid red; */
+        width:60%;
+    }
+
+    .downloads img{
+        height:400px;
+    }
+
+    .downloads .registration-form{
+        width:50%;
+        position:relative;
+        left:20px;
+        margin:20px 0;
+    }
+    
+
+
+    .downloads .registration-form h2{
+        text-transform: capitalize;
+        font-size:30px;
+
+    }
+    .downloads .registration-form h4{
+        text-transform: capitalize;
+        font-size:17px;
+
+
+    }
+
+    .downloads .registration-form form{
+        margin:25px 0;
+    }
+ 
+    .downloads .registration-form form input{
+        padding:5px;
+        margin:20px 10px;
+        
+        
+    }
+    .downloads .search-input{
+        width:250px;
+        position:relative;
+        right:10px;
+    }
+
+    .downloads .search-btn{
+        border:none;
+        background: rgb(239, 79, 95);
+        padding:8px;
+        text-transform: capitalize;
+       
+    }
+
+
+    .downloads span img{
+        width:140px;
+        height:50px;
+    }
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 900px){
+
+        .downloads .container-fluid{
+
+width:70%;
+
+        }
+        .downloads .search-input{
+            width:150px;
+        }
+
+        
+    .downloads .search-btn{
+    
+        font-size: 13px;
+        padding:8.5px;
+    }
+
+
+    .downloads .registration-form{
+        width:100%;
+       
+    }
+    }
+
+
+
+
+    /* strat of food list styling ////////////////////////// */
+
+
+    .citylist{
+        width:100vw;
+        height:100vh;
+        background:rgb(255, 249, 249);;
+        
+    }
+    .citylist .container-fluid{
+        /* margin:auto; */
+        width:80%;
+        background:rgb(255, 249, 249);
+        /* border:1px solid red; */
+       
+    }
+    .citylist h1{
+        padding:0 80px;
+    }
+
+
+    
+    .citylist .container-fluid .city{
+        display:flex;
+        margin:auto;
+        width:90%;
+     
+
+    
+    }
+    .citylist .container-fluid .city .cuisine-list1{
+     margin:0 px;
+     
+     width:100%;
+     height:100%;
+    }
+
+    
+
+
+
+
+
+
+    .citylist ul{
+        list-style-type: none;
+    }
+
+    .citylist .city-a{
+        text-decoration: none;
+        color:rgb(107, 103, 103);
+        font-size:18px;
+        opacity: 0.8;
+        margin:10px 0;
+        padding:10px 0;
+        letter-spacing: 1px;
+    }
+    .citylist .city-a:hover{
+        color:black;
+    }
+
+    
+    @media only screen and (max-width: 900px){
+        
+        .citylist h1{
+            padding:0 30px;
+            font-size:25px;
+        }
+          
+    .citylist .container-fluid .city{
+     
+        width:100%;}
+
+        .citylist .container-fluid{
+          width:100%;
+           
+        }
+        .citylist .city-a{
+            font-size:15px;
+            
+        }
+     
+    
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    /*//////////////////////////////////// styling  of footer //////////////// */
+.footer{
+    background-color:rgb(250, 250, 250);
+    width:100%;
+    height:100%;
+}
+
+
+    .footer .container-fluid{
+        width:70%;
+        /* border:1px solid red; */
+        background-color:rgb(255, 255, 255);
+
+    }
+
+    .container-fluid .foot{
+        display:flex;
+      
+
+    }
+
+    .foot .foot-head{
+        margin:0px;
+        width:100%;
+        padding:10px;
+        
+    }
+
+
+    .foot-head a{
+        text-decoration:none;
+        color:rgb(41, 37, 37);
+        opacity:0.9;
+        font-size:16px;
+    }
+    .foot-head ul{
+        list-style-type: none;
+    }
+
+
+    .d-img{
+        width:140px;
+        height:50px;
+        margin:5px 0;
+    }
+
+
+
+    @media only screen and (max-width: 900px){
+
+        .foot-head a{
+            
+            font-size:15px;
+        }
+        .footer .container-fluid{
+            width:98%;
+            position:relative;
+            top:10px;
+        }
+
+
+
+
+
+    }
+
+
+
+    /*//////////////////////////// modal input form //////////////////////// */
+
+   
+
+    input[type=number]{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      /* Set a style for all buttons */
+      button {
+        background-color: #89bd36;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra styles for the cancel button */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #ac2218;
+      }
+      
+      /* Center the image and position the close button */
+       .imgcontainer {
+        text-align: center;
+        margin-bottom:10px;
+        position: relative;
+      } 
+      
+      .container {
+        padding: 16px;
+      }
+      
+      span.psw {
+        float: right;
+        padding-top: 1px;
+        position:relative;
+        right:30px;
+      }
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 50%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 20px;
+      }
+      
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 100%;
+         /* Could be more or less, depending on screen size */
+      }
+      
+      /* The Close Button (x) */
+      .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: red;
+        cursor: pointer;
+      }
+      
+      /* Add Zoom Animation */
+      .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+      }
+      
+      @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+      }
+        
+      @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+    }
+
+
+
+
+    /* modal sign up form
+    
